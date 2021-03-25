@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
-skin: "/assets/css/skins/default.css"
-locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+remote_theme: mmistakes/so-simple-theme@3.2.0
+skin: "/assets/css/skins/light.css"
+locale: pt-BR
+title: "Joao Bazzo"
+description: "Meu site. Teste."
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: # the base hostname & protocol for your site e.g. "https://github.io.joaobazzo"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -73,11 +73,11 @@ search_full_content: false # can have performance implications for large sites
 #   - vendor/gems/
 #   - vendor/ruby/
 
-plugins:
+plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
+#  - jekyll-paginate
 
 # Front Matter Defaults
 defaults:
@@ -91,10 +91,10 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Joao Bazzo
   picture:
-  email:
-  twitter:
+  email: joao.bazzo@gmail.com
+  twitter: joaopbazzo
   links:
     - title:
       url:
